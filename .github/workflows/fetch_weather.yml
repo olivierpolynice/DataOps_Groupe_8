@@ -1,9 +1,9 @@
-name: Fetch Data
+name: Fetch Weather Data
 
 on:
   push:
     branches:
-      - master  # Modifiez ici la branche de déclenchement
+      - master  # Branche de déclenchement
 
 jobs:
   fetch:
@@ -23,5 +23,7 @@ jobs:
 
     - name: Run script
       env:
-        API_KEY: ${{ secrets.WEATHER_API_KEY }}
-      run: python scripts/fetch_weather.py
+        API_KEY: ${{ secrets.WEATHER_API_KEY }}  # Utilisation de la clé API stockée dans les secrets GitHub
+      run: |
+        echo "Running fetch_weather.py script..."
+        python scripts/fetch_weather.py
