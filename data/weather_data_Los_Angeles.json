@@ -1,0 +1,47 @@
+{
+    "location": {
+        "name": "Los Angeles",
+        "region": "California",
+        "country": "United States of America",
+        "lat": 34.0522,
+        "lon": -118.2428,
+        "tz_id": "America/Los_Angeles",
+        "localtime_epoch": 1733832975,
+        "localtime": "2024-12-10 04:16"
+    },
+    "current": {
+        "last_updated_epoch": 1733832900,
+        "last_updated": "2024-12-10 04:15",
+        "temp_c": 8.9,
+        "temp_f": 48.0,
+        "is_day": 0,
+        "condition": {
+            "text": "Mist",
+            "icon": "//cdn.weatherapi.com/weather/64x64/night/143.png",
+            "code": 1030
+        },
+        "wind_mph": 4.3,
+        "wind_kph": 6.8,
+        "wind_degree": 18,
+        "wind_dir": "NNE",
+        "pressure_mb": 1024.0,
+        "pressure_in": 30.24,
+        "precip_mm": 0.0,
+        "precip_in": 0.0,
+        "humidity": 83,
+        "cloud": 0,
+        "feelslike_c": 8.0,
+        "feelslike_f": 46.4,
+        "windchill_c": 9.4,
+        "windchill_f": 48.9,
+        "heatindex_c": 11.5,
+        "heatindex_f": 52.7,
+        "dewpoint_c": -12.0,
+        "dewpoint_f": 10.5,
+        "vis_km": 9.7,
+        "vis_miles": 6.0,
+        "uv": 0.0,
+        "gust_mph": 8.9,
+        "gust_kph": 14.4
+    }
+}

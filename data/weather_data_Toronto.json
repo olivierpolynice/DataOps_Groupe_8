@@ -1,0 +1,47 @@
+{
+    "location": {
+        "name": "Toronto",
+        "region": "Ontario",
+        "country": "Canada",
+        "lat": 43.6667,
+        "lon": -79.4167,
+        "tz_id": "America/Toronto",
+        "localtime_epoch": 1733832962,
+        "localtime": "2024-12-10 07:16"
+    },
+    "current": {
+        "last_updated_epoch": 1733832900,
+        "last_updated": "2024-12-10 07:15",
+        "temp_c": 4.0,
+        "temp_f": 39.2,
+        "is_day": 0,
+        "condition": {
+            "text": "Fog",
+            "icon": "//cdn.weatherapi.com/weather/64x64/night/248.png",
+            "code": 1135
+        },
+        "wind_mph": 5.1,
+        "wind_kph": 8.3,
+        "wind_degree": 226,
+        "wind_dir": "SW",
+        "pressure_mb": 1013.0,
+        "pressure_in": 29.91,
+        "precip_mm": 0.0,
+        "precip_in": 0.0,
+        "humidity": 100,
+        "cloud": 60,
+        "feelslike_c": 1.9,
+        "feelslike_f": 35.4,
+        "windchill_c": -0.8,
+        "windchill_f": 30.6,
+        "heatindex_c": 2.8,
+        "heatindex_f": 37.0,
+        "dewpoint_c": 2.1,
+        "dewpoint_f": 35.7,
+        "vis_km": 0.4,
+        "vis_miles": 0.0,
+        "uv": 0.0,
+        "gust_mph": 9.3,
+        "gust_kph": 14.9
+    }
+}
